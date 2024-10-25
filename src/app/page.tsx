@@ -1,6 +1,7 @@
 
 import { auth } from "@/auth";
 import HeroSection from "./components/HeroSection";
+import Work from "./components/Work";
 
 export default async function Home() {
   const user = await auth();
@@ -8,12 +9,18 @@ export default async function Home() {
 
   return (
 
-    <div> 
-    <HeroSection/>
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      {user?.user?.email}
-     
-    </div>
-    </div>
+    <main> 
+  {/* Hero Section */}
+  <div className="hero-section m-10">
+    <HeroSection />
+  </div>
+  
+  {/* Work Section */}
+  <div className="m-10">
+    <Work />
+  </div>
+</main>
+
+
   );
 }
