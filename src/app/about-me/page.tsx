@@ -30,7 +30,7 @@ const About = () => {
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <p className="mb-4">
-        Hello! My name is <strong>Saransh Saluja</strong>, and I am a Sophomore @NSUT and an aspiring web developer. I have a strong interest in building innovative web applications and honing my skills in various programming languages and frameworks.
+        Hello! My name is <strong>Saransh Saluja</strong>, and I am an ICE Sophomore @NSUT and an aspiring web developer. I have a strong interest in building innovative web applications and honing my skills in various programming languages and frameworks.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Background</h2>
@@ -66,7 +66,7 @@ const About = () => {
         .
       </p>
       <p>
-        Here's my Github : 
+        Here&apos;s my Github : 
         <a 
           href="https://github.com/ByteStorm05" 
           target="_blank" 
