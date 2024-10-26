@@ -11,10 +11,10 @@ const HeroSection: React.FC = () => {
             <span className="text-blue-600">D</span>
             <span className="text-yellow-500">S</span>
             <span className="text-green-600">C </span>
-            <span className="block text-gray-800">project</span>
+            <span className="block text-gray-800">project !</span>
           </h1>
           <p className="mt-3 text-lg text-gray-600">
-            I developed a Real-Time Stock Dashboard application that displays live data (as stock data) fetched from an API, enabling users to monitor market trends and make informed trading decisions. The app features a Buy Stocks page for purchasing stocks based on dynamic data and a Profile page to track user investments. Utilizing Socket.IO for real-time updates, this project highlights my skills in creating a responsive and interactive web application using React and Tailwind CSS.
+            I developed a Real-Time Stock Dashboard application that displays live data (as stock data) fetched from an API, enabling users to monitor market trends and make informed trading decisions. The app features a Buy Stocks page for purchasing stocks based on dynamic data and a Profile page to track user investments. Utilizing Socket.IO for real-time updates, this project highlights my skills in creating a responsive and interactive web application using Next.Js and Tailwind CSS.
           </p>
 
           <div className="mt-7 grid gap-3 w-full sm:inline-flex">
